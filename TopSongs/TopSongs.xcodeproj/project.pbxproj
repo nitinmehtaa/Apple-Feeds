@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A623DF7F1EA4ACD500E8CDF6 /* Album.m in Sources */ = {isa = PBXBuildFile; fileRef = A623DF7E1EA4ACD500E8CDF6 /* Album.m */; };
+		A623DF811EA6018700E8CDF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A623DF801EA6018700E8CDF6 /* LaunchScreen.storyboard */; };
+		A623DF841EAA05DB00E8CDF6 /* image.m in Sources */ = {isa = PBXBuildFile; fileRef = A623DF831EAA05DB00E8CDF6 /* image.m */; };
+		A6A0692B1EA10EA500820776 /* AlbumTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A0692A1EA10EA500820776 /* AlbumTableViewCell.m */; };
+		A6BF13E11EA0D26B0067F576 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF13E01EA0D26B0067F576 /* main.m */; };
+		A6BF13E41EA0D26B0067F576 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF13E31EA0D26B0067F576 /* AppDelegate.m */; };
+		A6BF13E71EA0D26B0067F576 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BF13E61EA0D26B0067F576 /* ViewController.m */; };
+		A6BF13EC1EA0D26B0067F576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6BF13EB1EA0D26B0067F576 /* Assets.xcassets */; };
+		FD122196B6B4DDD79889C02F /* libPods-TopSongs.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDAE6762148840980E12F64D /* libPods-TopSongs.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4319703C0B1582A43448B367 /* Pods-TopSongs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSongs.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs.debug.xcconfig"; sourceTree = "<group>"; };
+		A623DF7D1EA4ACD500E8CDF6 /* Album.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Album.h; path = TopSongs/Album.h; sourceTree = "<group>"; };
+		A623DF7E1EA4ACD500E8CDF6 /* Album.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Album.m; path = TopSongs/Album.m; sourceTree = "<group>"; };
+		A623DF801EA6018700E8CDF6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A623DF821EAA05DB00E8CDF6 /* image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = image.h; sourceTree = "<group>"; };
+		A623DF831EAA05DB00E8CDF6 /* image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = image.m; sourceTree = "<group>"; };
+		A6A069291EA10EA500820776 /* AlbumTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumTableViewCell.h; sourceTree = "<group>"; };
+		A6A0692A1EA10EA500820776 /* AlbumTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumTableViewCell.m; sourceTree = "<group>"; };
+		A6BF13DC1EA0D26B0067F576 /* TopSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BF13E01EA0D26B0067F576 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6BF13E21EA0D26B0067F576 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6BF13E31EA0D26B0067F576 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6BF13E51EA0D26B0067F576 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A6BF13E61EA0D26B0067F576 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A6BF13EB1EA0D26B0067F576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6BF13F01EA0D26B0067F576 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDAE6762148840980E12F64D /* libPods-TopSongs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TopSongs.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F74596B1F4F3AC04B1DC4FF8 /* Pods-TopSongs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TopSongs.release.xcconfig"; path = "Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6BF13D91EA0D26B0067F576 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD122196B6B4DDD79889C02F /* libPods-TopSongs.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		363C374F815EF5AD80BF6F7F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4319703C0B1582A43448B367 /* Pods-TopSongs.debug.xcconfig */,
+				F74596B1F4F3AC04B1DC4FF8 /* Pods-TopSongs.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		624926A4D12E8E16353D4BF1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BDAE6762148840980E12F64D /* libPods-TopSongs.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A623DF851EAA05E400E8CDF6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A623DF7D1EA4ACD500E8CDF6 /* Album.h */,
+				A623DF7E1EA4ACD500E8CDF6 /* Album.m */,
+				A623DF821EAA05DB00E8CDF6 /* image.h */,
+				A623DF831EAA05DB00E8CDF6 /* image.m */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A6BF13D31EA0D26B0067F576 = {
+			isa = PBXGroup;
+			children = (
+				A623DF801EA6018700E8CDF6 /* LaunchScreen.storyboard */,
+				A6BF13DE1EA0D26B0067F576 /* TopSongs */,
+				A6BF13DD1EA0D26B0067F576 /* Products */,
+				363C374F815EF5AD80BF6F7F /* Pods */,
+				624926A4D12E8E16353D4BF1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6BF13DD1EA0D26B0067F576 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6BF13DC1EA0D26B0067F576 /* TopSongs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6BF13DE1EA0D26B0067F576 /* TopSongs */ = {
+			isa = PBXGroup;
+			children = (
+				A623DF851EAA05E400E8CDF6 /* Model */,
+				A6BF13E21EA0D26B0067F576 /* AppDelegate.h */,
+				A6BF13E31EA0D26B0067F576 /* AppDelegate.m */,
+				A6BF13E51EA0D26B0067F576 /* ViewController.h */,
+				A6BF13E61EA0D26B0067F576 /* ViewController.m */,
+				A6BF13EB1EA0D26B0067F576 /* Assets.xcassets */,
+				A6BF13F01EA0D26B0067F576 /* Info.plist */,
+				A6BF13DF1EA0D26B0067F576 /* Supporting Files */,
+				A6A069291EA10EA500820776 /* AlbumTableViewCell.h */,
+				A6A0692A1EA10EA500820776 /* AlbumTableViewCell.m */,
+			);
+			path = TopSongs;
+			sourceTree = "<group>";
+		};
+		A6BF13DF1EA0D26B0067F576 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6BF13E01EA0D26B0067F576 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6BF13DB1EA0D26B0067F576 /* TopSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6BF13F31EA0D26B0067F576 /* Build configuration list for PBXNativeTarget "TopSongs" */;
+			buildPhases = (
+				9FE2AD8427645B212921FA8E /* [CP] Check Pods Manifest.lock */,
+				A6BF13D81EA0D26B0067F576 /* Sources */,
+				A6BF13D91EA0D26B0067F576 /* Frameworks */,
+				A6BF13DA1EA0D26B0067F576 /* Resources */,
+				8BD018ABBB599CAFB7AE56A0 /* [CP] Embed Pods Frameworks */,
+				D0173F4941AABF0EB6D8D528 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopSongs;
+			productName = TopSongs;
+			productReference = A6BF13DC1EA0D26B0067F576 /* TopSongs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6BF13D41EA0D26B0067F576 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Nitin;
+				TargetAttributes = {
+					A6BF13DB1EA0D26B0067F576 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = E7FS5EWD29;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A6BF13D71EA0D26B0067F576 /* Build configuration list for PBXProject "TopSongs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6BF13D31EA0D26B0067F576;
+			productRefGroup = A6BF13DD1EA0D26B0067F576 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6BF13DB1EA0D26B0067F576 /* TopSongs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6BF13DA1EA0D26B0067F576 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BF13EC1EA0D26B0067F576 /* Assets.xcassets in Resources */,
+				A623DF811EA6018700E8CDF6 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BD018ABBB599CAFB7AE56A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE2AD8427645B212921FA8E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0173F4941AABF0EB6D8D528 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TopSongs/Pods-TopSongs-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6BF13D81EA0D26B0067F576 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6BF13E71EA0D26B0067F576 /* ViewController.m in Sources */,
+				A6BF13E41EA0D26B0067F576 /* AppDelegate.m in Sources */,
+				A6BF13E11EA0D26B0067F576 /* main.m in Sources */,
+				A623DF841EAA05DB00E8CDF6 /* image.m in Sources */,
+				A623DF7F1EA4ACD500E8CDF6 /* Album.m in Sources */,
+				A6A0692B1EA10EA500820776 /* AlbumTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A6BF13F11EA0D26B0067F576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A6BF13F21EA0D26B0067F576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6BF13F41EA0D26B0067F576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4319703C0B1582A43448B367 /* Pods-TopSongs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7FS5EWD29;
+				INFOPLIST_FILE = TopSongs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nitin.TopSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6BF13F51EA0D26B0067F576 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F74596B1F4F3AC04B1DC4FF8 /* Pods-TopSongs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7FS5EWD29;
+				INFOPLIST_FILE = TopSongs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Nitin.TopSongs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6BF13D71EA0D26B0067F576 /* Build configuration list for PBXProject "TopSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BF13F11EA0D26B0067F576 /* Debug */,
+				A6BF13F21EA0D26B0067F576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6BF13F31EA0D26B0067F576 /* Build configuration list for PBXNativeTarget "TopSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6BF13F41EA0D26B0067F576 /* Debug */,
+				A6BF13F51EA0D26B0067F576 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6BF13D41EA0D26B0067F576 /* Project object */;
+}
