@@ -9,6 +9,9 @@
 #import "ViewController.h"
 #import "AlbumTableViewCell.h"
 #import "Album.h"
+#import <UIKit/UIKit.h>
+#import <SVProgressHUD.h>
+
 
 #define X(v)                                        v.frame.origin.x
 #define Y(v)                                        v.frame.origin.y
@@ -53,6 +56,8 @@ static NSString* AlbumTableViewCellIdentifier = @"AlbumTableViewCellIdentifier";
         [self makeTopSongsApiCall];
         return;
     }
+    
+   
 }
 
 - (instancetype) init
@@ -86,10 +91,12 @@ static NSString* AlbumTableViewCellIdentifier = @"AlbumTableViewCellIdentifier";
 }
 
 //Top songs API call
-- (void)makeTopSongsApiCall{
-
+- (void)makeTopSongsApiCall
+{
+    [SVProgressHUD show];
     __weak typeof(self) weakSelf = self;
     [[[NSURLSession sharedSession] dataTaskWithURL:[[NSURL alloc] initWithString:@"https://itunes.apple.com/in/rss/topalbums/limit=10/json"] completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        [SVProgressHUD dismiss];
         if (error){
             NSLog(@"This is Fucking Error !!");
         }else{
@@ -98,9 +105,10 @@ static NSString* AlbumTableViewCellIdentifier = @"AlbumTableViewCellIdentifier";
             responseDict = [dict valueForKey:@"feed"];
             [weakSelf parseAndReloadData];
         }
-    }]resume];
-    
-}
+    }]resume
+     ];
+ 
+    }
 - (void)parseAndReloadData
 {
     topAlbums = [[NSMutableArray alloc] init];
@@ -111,7 +119,9 @@ static NSString* AlbumTableViewCellIdentifier = @"AlbumTableViewCellIdentifier";
         [album parseObject:dict withInitialParams:nil];
         [topAlbums addObject:album];
     }
-    [albumTableView reloadData];
+    dispatch_async(dispatch_get_main_queue(), ^{
+        [albumTableView reloadData];
+    });
 }
 
 - (void)didReceiveMemoryWarning {

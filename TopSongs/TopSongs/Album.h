@@ -7,11 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "image.h"
 
 @interface Album : NSObject
 
 @property (nonatomic, strong) NSString *name;
-@property (nonatomic, strong) NSMutableArray *images;
+@property (nonatomic, strong) image *albumImage;
 @property (nonatomic, strong) NSString *price;
 @property (nonatomic, strong) NSString *artist;
 @property (nonatomic, strong) NSString *rights;

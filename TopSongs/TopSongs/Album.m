@@ -11,7 +11,6 @@
 @implementation Album
 
 @synthesize name;
-@synthesize images;
 @synthesize price;
 @synthesize artist;
 @synthesize releaseDate;
@@ -22,6 +21,11 @@
     price = [responseObject valueForKeyPath:@"im:price.label"];
     artist = [responseObject valueForKeyPath:@"im:artist.label"];
     releaseDate = [responseObject valueForKeyPath:@"im:releaseDate.label"];
+    
+    NSArray *arr = [responseObject valueForKeyPath:@"im:image"];
+    
+    _albumImage = [[image alloc] init];
+    [_albumImage parseObject:arr[2] withInitialParams:nil];
 
 }
 

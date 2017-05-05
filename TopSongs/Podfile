@@ -3,5 +3,6 @@
 
 target 'TopSongs' do
  pod 'AFNetworking'
+ pod 'SVProgressHUD'
 
 end

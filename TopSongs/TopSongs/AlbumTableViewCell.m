@@ -244,7 +244,11 @@
 }
 
 - (void)updateData:(Album *)album{
-//    [AlbumImageIcon setImage:album.image];
+    //[AlbumImageIcon setImage:[[UIImage alloc] initWithData:[NSData dataWithContentsOfURL:album.albumImage.imageURL]]];
+    NSData *imageData = [NSData dataWithContentsOfURL:album.albumImage.imageURL];
+    UIImage *img = [UIImage imageWithData:imageData];
+    [AlbumImageIcon setImage:img];
+    
     [TitleLabelText setText:album.name];
     [PriceLabelText setText:album.price];
     [ArtistLabelText setText:album.artist];

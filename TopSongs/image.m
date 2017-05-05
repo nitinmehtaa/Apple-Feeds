@@ -14,11 +14,9 @@
 @synthesize height;
 
 - (void)parseObject:(NSDictionary *)responseObject withInitialParams:(NSDictionary *)params;
-
 {
-    imageURL = [responseObject valueForKeyPath:@"im:image.label"];
-    height = [responseObject valueForKeyPath:@"im:image.attributes.height"];
-    
+    imageURL = [NSURL URLWithString:[responseObject valueForKeyPath:@"label"]];
+    height = [responseObject valueForKeyPath:@"attributes.height"];
 }
 
 

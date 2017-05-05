@@ -7,8 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Album.h"
-
 
 @interface image : NSObject
 @property (nonatomic, strong) NSURL *imageURL;
